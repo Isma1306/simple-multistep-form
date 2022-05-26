@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(29, 29, 29);
+
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.users {
+  overflow-y: auto;
+  height: 60vh;
+}
+
+.user {
+  justify-content: space-around;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+  background-color: lightgrey;
+  padding: 30px;
+  border-radius: 30px;
+  margin: 30px;
+}
+
+.hide {
+  display: none;
+  transition: display 500ms;
+}
+
+form {
+  font-weight: 600;
+  color: black;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: lightgrey;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  color: white;
+  box-shadow: 5px 5px salmon;
+  padding: 10px;
+  width: 150px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: cornflowerblue;
+}
+
+.btn:hover {
+  box-shadow: 2px 2px salmon;
+  background-color: rgb(71, 103, 161);
+}
+
+.inp {
+
+  margin: 5px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.inp input {
+
+  width: 100%;
+
+}
